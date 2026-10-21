@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnSend = chatView.findViewById(R.id.btn_send_chat);
         List<com.example.appnhathuoc.api.GeminiApiClient.ChatMessage> conversation = new ArrayList<>();
 
-        String greeting = "👋 Xin chào bạn! Mình là Dược sĩ tư vấn tại Nhà Thuốc. Hôm nay bạn cần mình hỗ trợ điều gì về sức khỏe hoặc cách dùng thuốc?";
+        String greeting = "👋 Xin chào! Mình là trợ lý AI sức khỏe của nhà thuốc, không thay thế dược sĩ/bác sĩ. Mình có thể cung cấp thông tin tham khảo hoặc giúp ghi lại chỉ định bạn đã nhận. Bạn cần hỗ trợ gì?";
         addChatMessage(layoutMessages, scrollChat, greeting, false);
 
         androidx.appcompat.app.AlertDialog dialog = new androidx.appcompat.app.AlertDialog.Builder(this)
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
         addChatMessage(layoutMessages, scrollChat, userText, true);
         btnSend.setEnabled(false);
         etInput.setEnabled(false);
-        TextView typingIndicator = addChatMessage(layoutMessages, scrollChat, "Dược sĩ đang soạn tin...", false);
+        TextView typingIndicator = addChatMessage(layoutMessages, scrollChat, "Trợ lý AI đang soạn phản hồi...", false);
 
         com.example.appnhathuoc.api.GeminiApiClient.generateAiResponse(new ArrayList<>(conversation),
                 new com.example.appnhathuoc.api.GeminiApiClient.GeminiCallback() {
