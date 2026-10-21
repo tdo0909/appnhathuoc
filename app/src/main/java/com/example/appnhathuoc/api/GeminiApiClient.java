@@ -40,7 +40,7 @@ public class GeminiApiClient {
     }
 
     private static final String GEMINI_API_KEY = BuildConfig.GEMINI_API_KEY;
-    private static final String GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent";
+    private static final String GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent";
     private static final String TAG = "GeminiApiClient";
 
     private static final ExecutorService executor = Executors.newFixedThreadPool(3);
@@ -219,6 +219,12 @@ public class GeminiApiClient {
                 break;
             case 429:
                 message = "Gemini đã hết quota hoặc vượt giới hạn tốc độ (HTTP 429). Kiểm tra quota/billing và thử lại sau.";
+                break;
+            case 502:
+            case 503:
+            case 504:
+                message = "Dịch vụ Gemini đang tạm thời không khả dụng (HTTP " + responseCode +
+                        "). Đây thường không phải lỗi API key. Vui lòng đợi vài phút rồi gửi lại; nếu vẫn gặp lỗi, thử lại sau hoặc kiểm tra trạng thái dịch vụ Gemini.";
                 break;
             default:
                 message = "Gemini trả về lỗi HTTP " + responseCode + ".";
