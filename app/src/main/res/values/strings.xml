@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MEDCARE</string>
+    <string name="slogan">Chăm sóc sức khỏe mỗi ngày</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_category">Danh mục</string>
+    <string name="nav_store">Nhà thuốc</string>
+    <string name="nav_orders">Đơn hàng</string>
+    <string name="nav_profile">Tài khoản</string>
+</resources>

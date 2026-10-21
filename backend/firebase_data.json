@@ -1,0 +1,318 @@
+{
+  "admins": {
+    "admin1": {
+      "id": 1,
+      "username": "admin",
+      "full_name": "Quản Trị Viên MEDCARE",
+      "email": "admin@medcare.vn",
+      "password": "$2y$10$1P2k7XpP3Z9N0w2Bq3S0.e.fR1iLg/4W6O6gM8x6W7I8M3X1L0O2C",
+      "role": "admin"
+    }
+  },
+  "users": {
+    "user1": {
+      "id": 1,
+      "full_name": "Nguyễn Văn A",
+      "phone": "0901234567",
+      "email": "nguyenvana@gmail.com",
+      "password": "123456",
+      "is_locked": 0
+    },
+    "user2": {
+      "id": 2,
+      "full_name": "Trần Thị Mai",
+      "phone": "0912345678",
+      "email": "tranmai@gmail.com",
+      "password": "123456",
+      "is_locked": 0
+    }
+  },
+  "categories": {
+    "cat_thuoc": { "id": "cat_thuoc", "name": "Thuốc", "iconResId": 2131230860 },
+    "cat_vitamin": { "id": "cat_vitamin", "name": "Vitamin", "iconResId": 2131230867 },
+    "cat_mypham": { "id": "cat_mypham", "name": "Dược mỹ phẩm", "iconResId": 2131230861 },
+    "cat_canhan": { "id": "cat_canhan", "name": "Chăm sóc cá nhân", "iconResId": 2131230865 },
+    "cat_mebe": { "id": "cat_mebe", "name": "Mẹ & bé", "iconResId": 2131230864 },
+    "cat_thietbi": { "id": "cat_thietbi", "name": "Thiết bị y tế", "iconResId": 2131230862 },
+    "cat_dinhduong": { "id": "cat_dinhduong", "name": "Sản phẩm dinh dưỡng", "iconResId": 2131230866 },
+    "cat_vesinh": { "id": "cat_vesinh", "name": "Vệ sinh cá nhân", "iconResId": 2131230863 }
+  },
+  "products": {
+    "p1": {
+      "id": "p1",
+      "name": "Vitamin C 1000mg Tăng Cường Đề Kháng",
+      "price": 150000,
+      "oldPrice": 180000,
+      "discountPercent": 17,
+      "rating": 4.8,
+      "reviewCount": 120,
+      "categoryId": "cat_vitamin",
+      "categoryName": "Vitamin",
+      "description": "Viên uống bổ sung Vitamin C hỗ trợ miễn dịch, giúp làm đẹp da và tăng cường sức đề kháng cho cơ thể.",
+      "ingredient": "Vitamin C 1000mg, Zinc 10mg",
+      "usage": "Uống 1 viên mỗi ngày sau bữa ăn sáng.",
+      "specification": "Hộp 60 viên",
+      "origin": "Mỹ",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 85,
+      "imageUrl": ""
+    },
+    "p2": {
+      "id": "p2",
+      "name": "Canxi Nano & Vitamin D3 Bổ Xương",
+      "price": 220000,
+      "oldPrice": 260000,
+      "discountPercent": 15,
+      "rating": 4.9,
+      "reviewCount": 95,
+      "categoryId": "cat_vitamin",
+      "categoryName": "Vitamin",
+      "description": "Canxi dạng Nano dễ hấp thu kết hợp D3 và K2 hỗ trợ xương răng chắc khỏe, giảm nguy cơ loãng xương.",
+      "ingredient": "Canxi Nano 500mg, Vitamin D3 400IU, Vitamin K2",
+      "usage": "Người lớn uống 2 viên/ngày, trẻ em trên 6 tuổi uống 1 viên/ngày.",
+      "specification": "Hộp 100 viên",
+      "origin": "Đức",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 120,
+      "imageUrl": ""
+    },
+    "p3": {
+      "id": "p3",
+      "name": "Omega 3 Dầu Cá Ngừ Đại Dương",
+      "price": 310000,
+      "oldPrice": 380000,
+      "discountPercent": 18,
+      "rating": 4.7,
+      "reviewCount": 150,
+      "categoryId": "cat_vitamin",
+      "categoryName": "Vitamin",
+      "description": "Bổ sung EPA và DHA giúp bổ mắt, tăng cường trí nhớ và bảo vệ sức khỏe tim mạch.",
+      "ingredient": "Dầu cá tự nhiên 1000mg (EPA 180mg, DHA 120mg)",
+      "usage": "Uống 1-2 viên/ngày cùng bữa ăn.",
+      "specification": "Lọ 120 viên",
+      "origin": "Úc",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 40,
+      "imageUrl": ""
+    },
+    "p4": {
+      "id": "p4",
+      "name": "Kẽm Bio-Zinc Hỗ Trợ Tiêu Hóa",
+      "price": 135000,
+      "oldPrice": 160000,
+      "discountPercent": 15,
+      "rating": 4.6,
+      "reviewCount": 80,
+      "categoryId": "cat_vitamin",
+      "categoryName": "Vitamin",
+      "description": "Hỗ trợ cải thiện vị giác, giúp ăn ngon miệng và tăng khả năng miễn dịch tự nhiên.",
+      "ingredient": "Zinc Picolinate 15mg",
+      "usage": "Uống 1 viên/ngày sau bữa ăn.",
+      "specification": "Hộp 60 viên",
+      "origin": "Pháp",
+      "isBestSeller": true,
+      "isPromotion": false,
+      "stock_quantity": 8,
+      "imageUrl": ""
+    },
+    "p5": {
+      "id": "p5",
+      "name": "Men Vi Sinh Probiotics 10 Tỷ Lợi Khuẩn",
+      "price": 280000,
+      "oldPrice": 320000,
+      "discountPercent": 12,
+      "rating": 4.9,
+      "reviewCount": 210,
+      "categoryId": "cat_thuoc",
+      "categoryName": "Thuốc",
+      "description": "Bổ sung lợi khuẩn giúp cân bằng hệ vi sinh đường ruột, giảm rối loạn tiêu hóa và chướng bụng.",
+      "ingredient": "Lactobacillus, Bifidobacterium (10 tỷ CFU)",
+      "usage": "Uống 1 gói/ngày pha với nước nguội.",
+      "specification": "Hộp 30 gói",
+      "origin": "Hàn Quốc",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 65,
+      "imageUrl": ""
+    },
+    "p6": {
+      "id": "p6",
+      "name": "Kem Chống Nắng Dịu Nhẹ SPF 50+",
+      "price": 350000,
+      "oldPrice": 420000,
+      "discountPercent": 16,
+      "rating": 4.8,
+      "reviewCount": 310,
+      "categoryId": "cat_mypham",
+      "categoryName": "Dược mỹ phẩm",
+      "description": "Chống nắng phổ rộng bảo vệ da khỏi tia UVA/UVB, kiểm soát dầu thừa và không gây bết dính.",
+      "ingredient": "Zinc Oxide, Titanium Dioxide, Niacinamide",
+      "usage": "Thoa đều lên da trước khi ra ngoài 20 phút.",
+      "specification": "Tuýp 50ml",
+      "origin": "Pháp",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 95,
+      "imageUrl": ""
+    },
+    "p7": {
+      "id": "p7",
+      "name": "Nhiệt Kế Hồng Ngoại Đo Trán Điện Tử",
+      "price": 450000,
+      "oldPrice": 550000,
+      "discountPercent": 18,
+      "rating": 4.9,
+      "reviewCount": 180,
+      "categoryId": "cat_thietbi",
+      "categoryName": "Thiết bị y tế",
+      "description": "Đo nhiệt độ nhanh chóng trong 1 giây không cần tiếp xúc, độ chính xác cao.",
+      "ingredient": "Linh kiện điện tử cao cấp, màn hình LCD",
+      "usage": "Đặt cách trán 1-3cm và bấm nút đo.",
+      "specification": "Hộp 1 máy + pin",
+      "origin": "Nhật Bản",
+      "isBestSeller": true,
+      "isPromotion": false,
+      "stock_quantity": 5,
+      "imageUrl": ""
+    },
+    "p8": {
+      "id": "p8",
+      "name": "Máy Đo Huyết Áp Bắp Tay Tự Động",
+      "price": 890000,
+      "oldPrice": 1100000,
+      "discountPercent": 19,
+      "rating": 4.9,
+      "reviewCount": 260,
+      "categoryId": "cat_thietbi",
+      "categoryName": "Thiết bị y tế",
+      "description": "Đo huyết áp và nhịp tim chính xác, cảnh báo loạn nhịp tim, bộ nhớ lưu 90 kết quả.",
+      "ingredient": "Máy đo, vòng quấn bắp tay",
+      "usage": "Quấn vòng bắp tay ngang tim và nhấn nút Start.",
+      "specification": "Bộ sản phẩm đầy đủ",
+      "origin": "Nhật Bản",
+      "isBestSeller": true,
+      "isPromotion": true,
+      "stock_quantity": 18,
+      "imageUrl": ""
+    }
+  },
+  "banners": {
+    "b1": {
+      "id": "b1",
+      "title": "Chăm sóc sức khỏe toàn diện",
+      "subtitle": "Giảm đến 30% cho thực phẩm chức năng",
+      "actionText": "Xem ngay",
+      "is_active": 1
+    },
+    "b2": {
+      "id": "b2",
+      "title": "Ưu đãi vitamin & khoáng chất",
+      "subtitle": "Mua 2 tặng 1 các dòng Vitamin C, Zinc",
+      "actionText": "Khám phá",
+      "is_active": 1
+    },
+    "b3": {
+      "id": "b3",
+      "title": "Thiết bị chăm sóc sức khỏe",
+      "subtitle": "Máy đo huyết áp, nhiệt kế chính hãng",
+      "actionText": "Đặt hàng",
+      "is_active": 1
+    }
+  },
+  "orders": {
+    "MC982103": {
+      "orderId": "MC982103",
+      "fullName": "Nguyễn Văn A",
+      "phone": "0901234567",
+      "address": "123 Lê Lợi, P. Bến Nghé, Q.1, TP.HCM",
+      "paymentMethod": "COD",
+      "subtotal": 520000,
+      "shippingFee": 0,
+      "totalAmount": 520000,
+      "status": "Đã giao",
+      "date": "25/09/2024 14:30",
+      "items": [
+        { "product_name": "Vitamin C 1000mg Tăng Cường Đề Kháng", "price": 150000, "quantity": 2, "subtotal": 300000 },
+        { "product_name": "Canxi Nano & Vitamin D3 Bổ Xương", "price": 220000, "quantity": 1, "subtotal": 220000 }
+      ]
+    },
+    "MC871239": {
+      "orderId": "MC871239",
+      "fullName": "Trần Thị Mai",
+      "phone": "0912345678",
+      "address": "45 Nguyễn Huệ, P. Bến Nghé, Q.1, TP.HCM",
+      "paymentMethod": "Chuyển khoản ngân hàng",
+      "subtotal": 660000,
+      "shippingFee": 0,
+      "totalAmount": 660000,
+      "status": "Đang giao",
+      "date": "26/09/2024 09:15",
+      "items": [
+        { "product_name": "Omega 3 Dầu Cá Ngừ Đại Dương", "price": 310000, "quantity": 1, "subtotal": 310000 },
+        { "product_name": "Kem Chống Nắng Dịu Nhẹ SPF 50+", "price": 350000, "quantity": 1, "subtotal": 350000 }
+      ]
+    }
+  },
+  "stores": {
+    "s1": { "id": "s1", "name": "MEDCARE Nhà Thuốc Bến Nghé", "address": "123 Lê Lợi, P. Bến Nghé, Q.1, TP.HCM", "province": "TP. Hồ Chí Minh", "phone": "028 3821 1234", "openingHours": "06:00 - 22:30" },
+    "s6": { "id": "s6", "name": "MEDCARE Nhà Thuốc Lĩnh Nam", "address": "186 Lĩnh Nam, P. Vĩnh Hưng, Q. Hoàng Mai, Hà Nội", "province": "Hà Nội", "phone": "024 3644 8899", "openingHours": "06:00 - 22:30" }
+  },
+  "articles": {
+    "a1": {
+      "id": "a1",
+      "title": "Vitamin C có tác dụng gì đối với sức khỏe?",
+      "summary": "Vitamin C đóng vai trò vô cùng quan trọng trong việc tăng cường hệ miễn dịch, sản sinh collagen và chống oxy hóa.",
+      "content": "Vitamin C (acid ascorbic) là một dưỡng chất thiết yếu giúp bảo vệ tế bào khỏi tổn thương do các gốc tự do. Ngoài ra, Vitamin C còn cải thiện sự hấp thu sắt từ thực phẩm và hỗ trợ hệ thống miễn dịch hoạt động hiệu quả để bảo vệ cơ thể khỏi bệnh tật.\n\nLiều lượng khuyên dùng hàng ngày là từ 75mg - 100mg đối với người trưởng thành. Bạn có thể bổ sung qua các loại quả họ cam quýt, dâu tây, ớt chuông hoặc viên uống bổ sung chất lượng.",
+      "author": "Dược sĩ MEDCARE",
+      "publishDate": "28/09/2024",
+      "imageUrl": ""
+    },
+    "a2": {
+      "id": "a2",
+      "title": "Cách bổ sung canxi đúng cách giúp xương chắc khỏe",
+      "summary": "Bổ sung canxi đúng thời điểm và kết hợp với Vitamin D3, K2 sẽ tối ưu hóa khả năng hấp thụ canxi vào xương.",
+      "content": "Canxi là khoáng chất chiếm khoảng 1.5 - 2% trọng lượng cơ thể, tập trung chủ yếu ở xương và răng. Khi bổ sung canxi, nên uống vào buổi sáng sau ăn 1 tiếng, tránh uống buổi tối để ngăn ngừa nguy cơ lắng đọng gây sỏi thận. Đừng quên kết hợp vận động ngoài trời để tổng hợp Vitamin D3 tự nhiên.",
+      "author": "ThS. Dược sĩ Nguyễn Thị Mai",
+      "publishDate": "27/09/2024",
+      "imageUrl": ""
+    },
+    "a3": {
+      "id": "a3",
+      "title": "Mẹo chăm sóc sức khỏe & phòng ngừa cảm cúm mùa lạnh",
+      "summary": "Mùa lạnh đến gần, việc giữ ấm cơ thể, súc họng nước muối và bổ sung vi chất giúp cả gia đình phòng bệnh hiệu quả.",
+      "content": "Thay đổi thời tiết đột ngột dễ làm suy giảm sức đề kháng. Hãy duy trì thói quen súc miệng bằng nước muối sinh lý mỗi sáng, bổ sung đầy đủ Vitamin C & Kẽm, đồng thời uống đủ 2 lít nước ấm mỗi ngày.",
+      "author": "Bác sĩ Lê Hoàng Nam",
+      "publishDate": "26/09/2024",
+      "imageUrl": ""
+    }
+  },
+  "notifications": {
+    "n1": {
+      "id": "n1",
+      "title": "⚡ Ưu đãi cực HOT đến 30%",
+      "message": "Giảm ngay 30% cho các dòng Vitamin C và Thực phẩm chức năng hôm nay!",
+      "time": "10 phút trước",
+      "type": "PROMOTION",
+      "isRead": false
+    },
+    "n2": {
+      "id": "n2",
+      "title": "📦 Đơn hàng MC982103 đã giao thành công",
+      "message": "Đơn hàng của bạn đã được giao thành công. Cảm ơn bạn đã mua sắm tại MEDCARE!",
+      "time": "2 giờ trước",
+      "type": "ORDER",
+      "isRead": false
+    },
+    "n3": {
+      "id": "n3",
+      "title": "🎉 Nhà thuốc MEDCARE xin chào!",
+      "message": "Chào mừng bạn đến với MEDCARE - Ứng dụng chăm sóc sức khỏe tận tâm.",
+      "time": "1 ngày trước",
+      "type": "SYSTEM",
+      "isRead": true
+    }
+  }
+}

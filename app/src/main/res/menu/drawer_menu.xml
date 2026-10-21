@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_drawer_category"
+            android:icon="@drawable/ic_nav_category"
+            android:title="Danh mục sản phẩm" />
+        <item
+            android:id="@+id/nav_drawer_health_plan"
+            android:icon="@drawable/ic_cat_vitamin"
+            android:title="Sức khỏe &amp; Lộ trình" />
+        <item
+            android:id="@+id/nav_drawer_consult"
+            android:icon="@drawable/ic_phone"
+            android:title="Tư vấn Dược sĩ" />
+        <item
+            android:id="@+id/nav_drawer_store"
+            android:icon="@drawable/ic_nav_store"
+            android:title="Hệ thống nhà thuốc" />
+        <item
+            android:id="@+id/nav_drawer_orders"
+            android:icon="@drawable/ic_nav_orders"
+            android:title="Đơn hàng của tôi" />
+        <item
+            android:id="@+id/nav_drawer_notif"
+            android:icon="@drawable/ic_notification"
+            android:title="Thông báo tin tức" />
+        <item
+            android:id="@+id/nav_drawer_profile"
+            android:icon="@drawable/ic_nav_profile"
+            android:title="Tài khoản cá nhân" />
+    </group>
+</menu>

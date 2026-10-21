@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_menu_bars"
+        android:title="Danh mục" />
+    <item
+        android:id="@+id/navigation_store"
+        android:icon="@drawable/ic_nav_store"
+        android:title="@string/nav_store" />
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/ic_nav_orders"
+        android:title="@string/nav_orders" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_profile" />
+</menu>

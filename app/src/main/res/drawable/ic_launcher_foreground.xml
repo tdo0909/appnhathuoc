@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White Medical Shield Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 C68,24 76,28 76,42 C76,60 58,78 54,82 C50,78 32,60 32,42 C32,28 40,24 54,24 Z" />
+
+    <!-- Medical pharmacy cross -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M50,38 h8 v10 h8 v8 h-8 v10 h-8 v-10 h-8 v-8 h8 Z" />
+
+    <!-- Gold Accent Capsule Pill (#FACC15) -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M44,68 C44,65.2 46.2,63 49,63 L59,63 C61.8,63 64,65.2 64,68 C64,70.8 61.8,73 59,73 L49,73 C46.2,73 44,70.8 44,68 Z" />
+
+    <!-- Capsule Division Line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,63 h2 v10 h-2 Z" />
+
+</vector>

@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+  <!-- Background Cute Circle Glow -->
+  <path
+      android:fillColor="#EBF3FC"
+      android:pathData="M50,50m-48,0a48,48 0 1,0 96,0a48,48 0 1,0 -96,0"/>
+
+  <!-- Body / Doctor Coat -->
+  <path
+      android:fillColor="@color/primary"
+      android:pathData="M30,85 C30,68 38,62 50,62 C62,62 70,68 70,85 C70,92 30,92 30,85 Z"/>
+
+  <!-- Inner White Shirt -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M44,62 L56,62 L53,78 L47,78 Z"/>
+
+  <!-- Red Tie / Stethoscope Accent -->
+  <path
+      android:fillColor="#E53935"
+      android:pathData="M48,64 L52,64 L51,72 L49,72 Z"/>
+
+  <!-- Chibi Head (Skin Tone) -->
+  <path
+      android:fillColor="#FFDFC4"
+      android:pathData="M50,22 C32,22 32,58 50,58 C68,58 68,22 50,22 Z"/>
+
+  <!-- Cute Chibi Blushing Cheeks -->
+  <path
+      android:fillColor="#FFB7B2"
+      android:pathData="M34,44 A4,3 0 0,0 42,44 A4,3 0 0,0 34,44 Z"/>
+  <path
+      android:fillColor="#FFB7B2"
+      android:pathData="M58,44 A4,3 0 0,0 66,44 A4,3 0 0,0 58,44 Z"/>
+
+  <!-- Chibi Big Sparkling Left Eye -->
+  <path
+      android:fillColor="#222222"
+      android:pathData="M38,38 A4.5,6 0 1,0 47,38 A4.5,6 0 1,0 38,38 Z"/>
+  <!-- Left Eye Sparkle Highlight -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M40,35 A1.8,2.2 0 1,0 43.6,35 A1.8,2.2 0 1,0 40,35 Z"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M43,40 A0.9,1 0 1,0 44.8,40 A0.9,1 0 1,0 43,40 Z"/>
+
+  <!-- Chibi Big Sparkling Right Eye -->
+  <path
+      android:fillColor="#222222"
+      android:pathData="M53,38 A4.5,6 0 1,0 62,38 A4.5,6 0 1,0 53,38 Z"/>
+  <!-- Right Eye Sparkle Highlight -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M55,35 A1.8,2.2 0 1,0 58.6,35 A1.8,2.2 0 1,0 55,35 Z"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M58,40 A0.9,1 0 1,0 59.8,40 A0.9,1 0 1,0 58,40 Z"/>
+
+  <!-- Cute Chibi Smile -->
+  <path
+      android:fillColor="#222222"
+      android:pathData="M45,47 C47,51 53,51 55,47 C55,48.5 45,48.5 45,47 Z"/>
+
+  <!-- Pharmacist Medical Cap -->
+  <path
+      android:fillColor="@color/primary"
+      android:pathData="M32,24 C32,10 68,10 68,24 C68,26 32,26 32,24 Z"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M30,24 L70,24 L68,28 L32,28 Z"/>
+
+  <!-- Red Cross Symbol in Cap -->
+  <path
+      android:fillColor="#E53935"
+      android:pathData="M48,13 H52 V21 H48 Z"/>
+  <path
+      android:fillColor="#E53935"
+      android:pathData="M44,15 H56 V19 H44 Z"/>
+
+</vector>
